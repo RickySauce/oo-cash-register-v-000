@@ -23,8 +23,8 @@ class CashRegister
       "There is no discount to apply."
     end
   end
- binding.pry
 
-
-
+  def void_last_transaction
+    @total.clear
+  end
 end
